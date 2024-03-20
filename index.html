@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testpress answers</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header class="heading" id="heading">
+        <p class="title" title="testpress interview answers">testpress codings</p>
+        <nav class="headinglist">
+            <li class="headmenu" id="home" title="retiurn to home" onclick="home()">Home</li>
+        </nav>
+    </header>
+    <main class="container" id="container">
+        <div class="left" id="leftmenu">
+            <ul class="leftlist">
+                <li class="leftitem" id="sol1" name="project" title="reverse String" onclick="projecto()">Reverse Word</li>
+                <li class="leftitem" id="sol2" name="project" title="Prime Number" onclick="projectt()">Prime Number</li>
+                <li class="leftitem" id="sol3" name="project" title="Maximum value" onclick="projectth()">Create Largest Number</li>
+                <li class="leftitem" id="sol4" name="project" title="reverse number" onclick="projectf()">Reverse Number</li>
+                <li class="leftitem" id="sol5" name="project" title="reverse String" onclick="projectfi()">Min and Max Number</li>
+            </ul>
+        </div>
+        <div class="right" id="rightdetail">
+            <p id="hidetxt"><q>Click the Project name to see the solutions for your questions</q></p>
+            <p class="projecttitle" id="title" name="projectopen">Enter Your Number</p><br><br>
+            <input type="text" placeholder="Enter your Text" class="usrinputxt" id="usrinput" autocomplete="on" autofocus="on"><br><br>
+            <div class="multiple" id="multiinput">
+                <label class="value" id="avalue">a</label>
+                <input type="number" placeholder="num" class="valueinput" id="inavalue" required><br>
+                <label class="value" id="bvalue">b</label>
+                <input type="number" placeholder="num" class="valueinput" id="inbvalue" required><br>
+                <label class="value" id="cvalue">c</label>
+                <input type="number" placeholder="num" class="valueinput" id="incvalue" required><br>
+                <label class="value" id="davalue">d</label>
+                <input type="number" placeholder="num" class="valueinput" id="indvalue" required><br>
+            </div>
+            <button type="submit" id="clkbtn" onclick="strop()">click</button><br><br>
+            <p class="result" id="resultpara">oh</p> 
+        </div>
+    </main>
+    <script>
+        document.getElementById("title").style.display="none";
+        document.getElementById("usrinput").style.display="none";
+        document.getElementById("multiinput").style.display="none";
+        document.getElementById("clkbtn").style.display="none";
+        document.getElementById("resultpara").style.display="none";
+    </script>
+</body>
+</html>
